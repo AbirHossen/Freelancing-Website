@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+    <link rel="stylesheet" type="photo/css" href="css/Pphoto.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Freelancer Dashboard</title>
+
+</head>
+<body>
+	<header>
+		<div class= "container">
+			
+			
+			<a href="Home.html"><img src="resources/logo.png" alt="logo" class="logo"></a> 
+
+			<nav>
+				
+				<ul>
+					<li><a href="#">Account Settings</a></li>
+                    <li><a href="message.html">Messages</a></li>
+                    <li><a href="Login.html">Logout</a></li>
+                   
+				</ul>
+
+			</nav>
+		</div>
+	</header>
+	<section id="side">
+		<div class="sidenav">
+  <a href="clientprofile.html">Dashboard</a>
+  <a href="clientprofile.html">Profile</a>
+  
+  <button class="dropdown-btn">Work History<i class="fa fa-caret-down"></i></button>
+  <div class="dropdown-container">
+    <a href="clientongoing.html">Ongoing Works</a>
+    <a href="clientprevious.html">Previous Works</a>
+    <a href="clientrequest.html">Requested Works</a>
+      <a href="clientpost.html">Post a new Work</a>
+  </div>
+  <a href="#contact">Transactions</a>
+  <a href="message.html">Messages</a>
+  <button class="dropdown-btn">Others<i class="fa fa-caret-down"></i></button>
+  <div class="dropdown-container">
+    <a href="#">Other Links</a>
+  </div>
+</div>
+	<script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+       
+
+
+        
+        
+        
+    </section>
+ 
+    
+     <div class="jahir">
+ <h5>Project Name: Project 3</h5>
+        <h5>Project Description: Pro ei rebum tation dicant, amet saepe dicam sed te. In modus aliquam interpretaris vel. Ius ei homero aeterno, ut homero adversarium vel. Est inani euismod ne, tota molestiae vis at.</h5>
+        <h5>Project Requirements: Eu sed dicam saperet delicatissimi, laoreet fuisset assueverit qui cu. Ea duo iisque integre consequat, no has fabellas detraxit, tollit assentior sit no.</h5>
+        <h5>Freelancer Requirements: Quando quidam te has, at his doctus commodo accusata, in duo elit fabulas intellegat. Ea per autem aliquip deserunt.</h5>
+        <h5>Maximum Cost: 120$</h5>
+        
+         <br>
+         <h5>Bidder 1: 120$</h5>
+        <a href="message1.html" class="button30">Contact Bidder</a>
+         <h5>Bidder 1: 85$</h5>
+        <a href="message1.html" class="button30">Contact Bidder</a>
+         <h5>Bidder 1: 70$</h5>
+        <a href="message1.html" class="button30">Contact Bidder</a>
+</div>
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+  <!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+    <link rel="stylesheet" type="photo/css" href="css/Pphoto.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Freelancer Dashboard</title>
+
+</head>
+<body>
+	<header>
+		<div class= "container">
+			
+			
+			<a href="Home.html"><img src="resources/logo.png" alt="logo" class="logo"></a> 
+
+			<nav>
+				
+				<ul>
+					<li><a href="#">Account Settings</a></li>
+                    <li><a href="message.html">Messages</a></li>
+                    <li><a href="Login.html">Logout</a></li>
+                   
+				</ul>
+
+			</nav>
+		</div>
+	</header>
+	<section id="side">
+		<div class="sidenav">
+  <a href="clientprofile.html">Dashboard</a>
+  <a href="clientprofile.html">Profile</a>
+  
+  <button class="dropdown-btn">Work History<i class="fa fa-caret-down"></i></button>
+  <div class="dropdown-container">
+    <a href="clientongoing.html">Ongoing Works</a>
+    <a href="clientprevious.html">Previous Works</a>
+    <a href="clientrequest.html">Requested Works</a>
+      <a href="clientpost.html">Post a new Work</a>
+  </div>
+  <a href="#contact">Transactions</a>
+  <a href="message.html">Messages</a>
+  <button class="dropdown-btn">Others<i class="fa fa-caret-down"></i></button>
+  <div class="dropdown-container">
+    <a href="#">Other Links</a>
+  </div>
+</div>
+	<script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+       
+
+
+        
+        
+        
+    </section>
+	  <div class="koushik">
+	  <p>
+	<td align="right">
+                        <a href="message.html" target="contentFrame" style="color:red">Inbox</a>&nbsp;
+                        <a href="message2.html" target="contentFrame" style="color:red">Send Messages</a>&nbsp;
+                        <a href="#" target="contentFrame" style="color:red">Compose</a>
+                    </td>
+					</p>
+					</div>
+					<div class="koushik1">
+	    <td align="right">
+        <label for="fname">To</label>
+		
+           <input type="text" id="fname" name="firstname" > 
+        <label for="fname">Message Box:</label> -->
+		
+		<textarea rows="10" cols="75">Type your message </textarea>
+            <!-- <input type="text" id="fname" name="firstname" > -->
+        </td>
+        <a href="message.html" class="button30">Send</a>
+       </div>
+  
+    
+    
+    
+
+</body>
+</html>
+  
+  
+  
