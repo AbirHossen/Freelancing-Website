@@ -80,7 +80,7 @@ nav a:hover::before {
 
 #mid1
 {
-  background: url("../../resources/images/topsecback.jpg");
+  background: url("../resources/images/topsecback.jpg");
   height: 400px;
   background-size: cover;
 }
