@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300">
+	<link rel="stylesheet" type="text/css" href="../css/style2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Completed Projects</title>
+
+<style type="text/css">
+  table
+  {
+  width: 74%;
+  height: 470px;
+  margin-top: -600px;
+  margin-left: 330px;
+  background-color: #62A765;
+  border:1;
+  color: white;
+  }
+  td{
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+    color: black;
+    background-color: #ddd;
+   }
+   tr
+   {
+    font-size: 15px;
+   }
+
+
+</style>
+
+</head>
+<body>
+	<header>
+		<div class= "container">
+			<a href="Home.html"><img src="../resources/images/logo.png" alt="logo" class="logo"></a> 
+
+			<nav>
+				
+				<ul>
+					<li><a href="#">Account Settings</a></li>
+                    <li><a href="#">Messages</a></li>
+                    <li><a href="Login.html">Logout</a></li>
+                   
+				</ul>
+
+			</nav>
+		</div>
+	</header>
+	<section id="side">
+		<div class="sidenav">
+  <a href="#about">Dashboard</a>
+  <a href="#services">Profile</a>
+  <a href="#clients">Clients</a>
+  <button class="dropdown-btn">Work History<i class="fa fa-caret-down"></i></button>
+  <div class="dropdown-container">
+    <a href="#">Ongoing Projects</a>
+    <a href="#">Completed Projects</a>
+    <a href="#">All Projects</a>
+  </div>
+  <a href="#contact">Transactions</a>
+  <a href="#contact">Messages</a>
+  <button class="dropdown-btn">Others<i class="fa fa-caret-down"></i></button>
+  <div class="dropdown-container">
+    <a href="#">Reviews</a>
+  </div>
+</div>
+	<script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+	</section>
+
+  <table>
+   <tr><th colspan="5" height="12%" align="left" style="font-size: 20px;">Completed Projects Summery</th></tr> 
+   <tr align="left" height="8%" style="background-color: Green;">
+    <th width="20%">Project Tittle</th><th width="16%">Clients Name</th><th width="16%">Timeline</th><th width="16%">Amount</th><th width="16%">Status</th> <th width="16%">Details</th></tr>
+  <tr><td>Photoshoping 50 Images</td><td>Yousuf Pathan</td><td>21-Jun-2018 to 26-Jun-2018<br/>(5 Days)</td><td>$40</td><td>Completed</td><td><a href="">See Details>></a></td></tr>
+<tr><td>Document Translation</td><td>Mohammad Farhan</td><td>22-May-2018 to 1-Jun-2018<br/>(9 Days)</td><td>$20</td><td>Completed</td><td><a href="">See Details>></a></td></tr>
+ <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+  <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+ <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+  </table>
+
+</body>
+</html>
