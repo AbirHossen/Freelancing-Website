@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 body {
   margin: 0;
-  background: grey;
+  background: white;
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
 }
@@ -173,17 +173,17 @@ nav a:hover::before {
 }
 .jahir {
     margin: auto;
-     position: absolute;
-    width: 40%;
+    position: absolute;
+    width: 60%;
     border: 3px solid #73AD21;
     padding: 10px;
-    top: 130px;
-    left: 340px;
+    top: 10px;
+    left: 20px;
 }
 .jahir1 {
     margin: auto;
      position: absolute;
-    width: 40%;
+    width: 60%;
     border: 3px solid #73AD21;
     padding: 10px;
     top: 400px;
@@ -201,11 +201,11 @@ nav a:hover::before {
 .jahir3 {
     margin: auto;
      position: absolute;
-    width: 40%;
+    width: 60%;
     border: 3px solid #73AD21;
     padding: 10px;
-    top: 500px;
-    left: 340px;
+    top: 400px;
+    left: 20px;
 }
 .jahir4 {
     margin: auto;

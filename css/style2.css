@@ -145,7 +145,7 @@ nav a:hover::before {
   height: 250px;
   margin-top: -600px;
   margin-left: 330px;
-  background-color: #62A765;
+  background-color: #05C3D3;
   border:1;
   color: white;
 
@@ -156,7 +156,7 @@ nav a:hover::before {
   height: 250px;
   margin-top: 20px;
   margin-left: 330px;
-  background-color: #62A765;
+  background-color: #05C3D3;
   border:1;
   color: white;
 }
