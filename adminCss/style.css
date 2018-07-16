@@ -5,10 +5,17 @@
     list-style: none;
     outline: none;
 }
+.adDash{
+ 
+    background-color:#f7f7f7;
+}
 #loginRedirect{
     margin-right: 10px;
     padding: 6px 32px;
 
+}
+li {
+    text-align: center;
 }
 .navbar-brand{
     font-size: 20px;
@@ -75,7 +82,7 @@
     height: 1000px;
 }
 div.new{
-    padding-top:50px;
+    padding-top :;
 }
 .new .first_block{
     float: left;
@@ -95,7 +102,7 @@ div.new{
 
 .new input[type="text"]{
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 8px;
     width: 320px;
     border: 2px solid steelblue;
 }
@@ -157,40 +164,3 @@ div.new{
     resize: none;
 }
 
-img{
-    max-width:180px;
-}
-input[type=file]{
-
-    width: 320px;
-    margin-top: 32px;
-    border: none;
-    background: steelblue;
-    color: #fff;
-    font-size: 1.2em;
-}
-
-
-/* table design */
-#actions{
-    width: 60%;
-    margin: none;
-    padding: none;
-}
-
-table.db-table 	{ 
-    width: 70%;
-    border-right:1px solid #ccc; 
-    border-bottom:1px solid #ccc; 
-}
-table.db-table th	{ 
-    background:#eee; 
-    padding:5px; 
-    border-left:1px solid #ccc; 
-    border-top:1px solid #ccc; 
-}
-table.db-table td	{ 
-    padding:5px; 
-    border-left:1px solid #ccc; 
-    border-top:1px solid #ccc; 
-}
