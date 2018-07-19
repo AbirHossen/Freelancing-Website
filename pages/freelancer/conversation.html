@@ -5,7 +5,18 @@
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:300">
   <link rel="stylesheet" type="text/css" href="../css/style2.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style type="text/css">
+  <link rel="stylesheet" href="../../bootstrap-3.3.7/css/bootstrap.css">
+        <script src="../../js/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+        <script src="../../js/popper.js"></script>
+        <script src="../../bootstrap-3.3.7/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="../../adminCss/style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300">
+  <link rel="stylesheet" type="text/css" href="../css/style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <style type="text/css">
 table
   {
   width: 60%;
@@ -38,15 +49,21 @@ table
     padding-top: 5px;
    }
 
-</style>
+</style> -->
 </head>
 <body>
-  <section id="head">
-    <h1> <a href="Messages.html">Inbox</a>___<a href="SentMessages.html">Sent Messages</a>____<a href="ComposeMess.html">Compose</a></h1>
+  <div class="new">  <section id="head">
+   <section id="head">
+   <ul style="display:inline-block;">
+   <ul><h3><a href="Messages.html">Inbox</a></h2></ul>
+   <ul><h3><a href="SentMessages.html">Sent Messages</a></h3></ul> 
+   <ul><h3><a href="ComposeMess.html">Compose</a></h3></ul>
+   </ul>
+</section>
   
 </section>
 
-<table align="center">
+<table class="table" align="center">
    <tr><th colspan="5" height="12%" align="left" style="font-size: 20px;">You and Bidder1(abcd@gmail.com)</th></tr> 
   
 
@@ -87,16 +104,19 @@ table
       </tr>
       
 
-       <tr><td colspan="4"><label for="fname">Message Box:</label> -->
+       <tr><td colspan="4"><label for="fname">Message Box:</label> 
     
-    <textarea rows="5" cols="75">Type your message </textarea>
-       <button><a href="#" class="button30">Send</a></button>
-       
+   <textarea style="width: 800px" rows="10" cols="100">Type your message </textarea>
         </td></tr>
+        <tr><td><a href="conversation.html"><input type="submit" value="Send Message"></a></button>
+       </td></tr>
+       
+       
         <tr></tr>
 
 </table>
 
+</div>
 
 </body>
 </html>
