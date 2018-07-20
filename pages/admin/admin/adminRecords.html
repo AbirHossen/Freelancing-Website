@@ -8,6 +8,31 @@
         <link rel="stylesheet" href="../../../adminCss/style.css">
       
     </head>
+
+
+<!--//modal part-->
+<div class="modal fade" id="closeModal" tabindex="-1">
+    
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+        
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Action Completed!</h4>
+            </div>
+            <div class="modal-body">
+            
+                <p>Deleted!</p>
+            </div>
+            <div class="modal-footer">
+                
+                <button class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="new">
         <legend>Admin Records</legend>
         <table class="table" >
@@ -15,21 +40,25 @@
             <th >ID</th>
             <th>Name</th>
              <th>Last login</th>
+             <th>Action</th>
          </tr>
          <tr>
             <td>admin01</td>
             <td>abir</td>
             <td>2h ago</td>
+             <td><a href="#" data-toggle="modal" data-target="#closeModal"><span class="glyphicon">&#xe014;</span></a> </td>
          </tr>
          <tr>
             <td>admin02</td>
             <td>arafat</td>
             <td>5h ago</td>
+             <td><a href="#" data-toggle="modal" data-target="#closeModal"><span class="glyphicon">&#xe014;</span></a> </td>
          </tr>
          <tr>
             <td>admin03</td>
             <td>koushik</td>
             <td>5h ago</td>
+             <td><a href="#" data-toggle="modal" data-target="#closeModal"><span class="glyphicon">&#xe014;</span></a> </td>
          </tr>
       </table>
     
